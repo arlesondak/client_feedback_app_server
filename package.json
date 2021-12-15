@@ -1,0 +1,27 @@
+{
+    "name": "client_feedback_app_server",
+    "version": "1.0.0",
+    "description": "Server for Client Feedback App.",
+    "main": "index.js",
+    "engines": {
+        "node": "16.13.1",
+        "npm": "8.1.2"
+    },
+    "scripts": {
+        "start": "node index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/arlesondak/client_feedback_app_server.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/arlesondak/client_feedback_app_server/issues"
+    },
+    "homepage": "https://github.com/arlesondak/client_feedback_app_server#readme",
+    "dependencies": {
+        "express": "^4.17.1"
+    },
+    "type": "module"
+}
