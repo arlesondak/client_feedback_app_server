@@ -3,7 +3,7 @@ import express from 'express';
 const app = express();
 
 app.get('/', (req, res) => {
-    res.send({ hi: 'there' });
+    res.send({ hello: 'there!' });
 });
 
 // switch between production with Heroku to handle their assigned port
